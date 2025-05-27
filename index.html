@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANGUAH - AI Startup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="dark">
+  <div class="bg-image parallax" id="bgImage"></div>
+  <nav class="fixed top-0 left-0 w-full p-4 glass z-20 flex justify-between items-center">
+    <h1 class="text-2xl font-bold" style="font-family: 'Orbitron', sans-serif;">ANGUAH</h1>
+    <div class="flex items-center gap-6">
+      <a href="#hero" class="text-white hover:text-gray-300">Home</a>
+      <a href="#features" class="text-white hover:text-gray-300">Features</a>
+      <a href="#testimonials" class="text-white hover:text-gray-300">Testimonials</a>
+      <a href="#pricing" class="text-white hover:text-gray-300">Pricing</a>
+      <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+      <label class="relative inline-flex items-center cursor-pointer">
+        <input type="checkbox" id="modeToggle" class="sr-only peer">
+        <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:bg-gray-600">
+          <div class="w-5 h-5 bg-white rounded-full shadow-md transform transition-transform peer-checked:translate-x-5"></div>
+        </div>
+        <span class="ml-3 text-sm text-white">Dark Mode</span>
+      </label>
+    </div>
+  </nav>
+  <section id="hero" class="flex flex-col items-center justify-center min-h-screen text-center">
+    <h1 class="anguah-text text-6xl md:text-8xl font-bold mb-6 text-white" style="font-family: 'Orbitron', sans-serif;">
+      <span style="animation-delay: 1s;">A</span>
+      <span style="animation-delay: 1.2s;">N</span>
+      <span style="animation-delay: 1.4s;">G</span>
+      <span style="animation-delay: 1.6s;">U</span>
+      <span style="animation-delay: 1.8s;">A</span>
+      <span style="animation-delay: 2s;">H</span>
+    </h1>
+    <p class="text-xl md:text-2xl mb-8 text-white opacity-80">Revolutionizing the Future with AI Innovation</p>
+    <button class="glass px-6 py-3 text-lg font-semibold text-white hover:bg-white hover:bg-opacity-20 transition">Get Started</button>
+  </section>
+  <section id="features" class="animate-on-scroll">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-12 text-center" style="font-family: 'Orbitron', sans-serif;">Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">AI Automation</h3>
+          <p>Streamline your workflows with advanced AI automation tools designed for efficiency.</p>
+        </div>
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Data Insights</h3>
+          <p>Unlock actionable insights from your data with our powerful AI analytics platform.</p>
+        </div>
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Scalable Solutions</h3>
+          <p>Grow your business with scalable AI solutions tailored to your needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="animate-on-scroll">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-12 text-center" style="font-family: 'Orbitron', sans-serif;">Testimonials</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <p class="italic mb-4">"ANGUAH transformed our business with its AI tools. Highly recommend!"</p>
+          <p class="font-semibold">— Jane Doe, CEO of TechCorp</p>
+        </div>
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <p class="italic mb-4">"The insights we gained from ANGUAH's platform were game-changing."</p>
+          <p class="font-semibold">— John Smith, CTO of InnovateX</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="pricing" class="animate-on-scroll">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-12 text-center" style="font-family: 'Orbitron', sans-serif;">Pricing</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Basic</h3>
+          <p class="text-3xl font-bold mb-4">$9/mo</p>
+          <p>Essential AI tools for startups.</p>
+          <button class="mt-4 w-full py-2 bg-gray-600 rounded-lg hover:bg-gray-500">Choose Plan</button>
+        </div>
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Pro</h3>
+          <p class="text-3xl font-bold mb-4">$29/mo</p>
+          <p>Advanced features for growing businesses.</p>
+          <button class="mt-4 w-full py-2 bg-gray-600 rounded-lg hover:bg-gray-500">Choose Plan</button>
+        </div>
+        <div class="card glass p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Enterprise</h3>
+          <p class="text-3xl font-bold mb-4">Custom</p>
+          <p>Tailored solutions for large organizations.</p>
+          <button class="mt-4 w-full py-2 bg-gray-600 rounded-lg hover:bg-gray-500">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="animate-on-scroll">
+    <div class="container mx-auto max-w-lg">
+      <h2 class="text-4xl font-bold mb-12 text-center" style="font-family: 'Orbitron', sans-serif;">Contact Us</h2>
+      <div class="glass p-6 rounded-lg shadow-lg">
+        <div class="space-y-4">
+          <input type="text" placeholder="Name" class="w-full p-3 bg-transparent border-b border-gray-400 focus:outline-none focus:border-white text-white">
+          <input type="email" placeholder="Email" class="w-full p-3 bg-transparent border-b border-gray-400 focus:outline-none focus:border-white text-white">
+          <textarea placeholder="Message" class="w-full p-3 bg-transparent border-b border-gray-400 focus:outline-none focus:border-white text-white" rows="4"></textarea>
+          <button class="w-full py-3 bg-gray-600 rounded-lg hover:bg-gray-500">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
