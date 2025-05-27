@@ -17,4 +17,4 @@ A futuristic landing page for a fake AI startup named ANGUAH, featuring glassmor
 ## Setup
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/anguah-landing-page.git
+   git clone https://github.com/EvansAnguah/landing-page.git
